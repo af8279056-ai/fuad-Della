@@ -1,0 +1,301 @@
+/* ===================================================
+   [GLOBAL RESET & RANGKA DASAR]
+   =================================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: sans-serif;
+    background-color: #000;
+}
+
+/* ===================================================
+   [UTILITY FONT & UKURAN SKALA RESPONSIF]
+   =================================================== */
+.font-auliare { font-family: 'Auliare', sans-serif; }
+.font-aphrodite { font-family: 'UVFAphroditePro', serif; }
+.font-signature { font-family: 'PhotographSignature', cursive; }
+.font-petite { font-family: 'PetiteBold', sans-serif; }
+
+.size-1 { font-size: 4.5vw; }
+.size-2 { font-size: 9vw; }
+
+/* ===================================================
+   [STRUKTUR HALAMAN UTAMA]
+   =================================================== */
+.page-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.overlay-dark {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.content-wrapper {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 500px;
+}
+
+/* Posisi Konten */
+.text-top {
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: auto;
+}
+
+.text-bottom {
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 50px;
+}
+
+.text-center {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Scroll untuk Form/Konten Panjang */
+.scrollable {
+    max-height: 85vh;
+    overflow-y: auto;
+    padding-right: 5px;
+}
+
+/* Tombol Global */
+.btn-action {
+    background: #ffffff;
+    color: #000000;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    transition: transform 0.2s;
+}
+.btn-action:active { transform: scale(0.95); }
+
+.hidden { display: none !important; }
+.bg-black-pure { background: #000000 !important; }
+.mt-1 { margin-top: 10px; }
+.mt-2 { margin-top: 20px; }
+.w-100 { width: 100%; }
+
+/* ===================================================
+   [KODE CSS PER HALAMAN - BAGIAN 1]
+   =================================================== */
+
+/* --- BAGIAN DEPAN (COVER) & HALAMAN 1 --- */
+#cover-screen .text-top h1,
+#halaman-1 .text-center h1 {
+    margin: 10px 0;
+}
+
+/* --- HALAMAN 2: AYAT AR-RUM --- */
+.arabic-text {
+    font-size: 6.5vw;
+    line-height: 2;
+    margin-bottom: 20px;
+    direction: rtl;
+    text-align: center;
+}
+.translation-text {
+    font-size: 3.8vw;
+    line-height: 1.5;
+    opacity: 0.95;
+    text-align: center;
+}
+
+/* --- HALAMAN 3 & 4: THE BRIDE & THE GROOM --- */
+#halaman-3 h2, #halaman-4 h2 { margin-bottom: 5px; }
+#halaman-3 h3, #halaman-4 h3 { margin-bottom: 10px; font-weight: normal; }
+
+/* --- HALAMAN 5: LOVE STORY --- */
+.title-story { margin-bottom: 20px; }
+.story-box h4 {
+    margin-top: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.story-box p {
+    font-size: 4vw;
+    opacity: 0.9;
+}
+
+/* --- HALAMAN 6: COUNTDOWN --- */
+#countdown-timer {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 25px 0;
+}
+.timer-box {
+    display: flex;
+    flex-direction: column;
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(5px);
+    padding: 12px;
+    border-radius: 8px;
+    min-width: 65px;
+}
+.timer-num { font-size: 6vw; font-weight: bold; }
+.timer-label { font-size: 3vw; margin-top: 2px; }
+/* ===================================================
+   [KODE CSS PER HALAMAN - BAGIAN 2]
+   =================================================== */
+
+/* --- HALAMAN 7: INFO ACARA --- */
+.event-card {
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 15px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.event-card h2 {
+    margin-bottom: 10px;
+}
+
+/* --- HALAMAN 8: GALERI FOTO GRID --- */
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    justify-content: center;
+    padding: 20px 0;
+}
+.photo-grid img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+/* --- HALAMAN 9: WEDDING GIFT --- */
+.text-justify { text-align: justify; line-height: 1.4; }
+.bank-box {
+    background: rgba(255, 255, 255, 0.95);
+    color: #000000;
+    padding: 18px;
+    border-radius: 12px;
+    width: 100%;
+    text-align: left;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+.line-break {
+    margin: 10px 0;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+/* --- HALAMAN 10 & 11: RSVP & WEDDING WISH --- */
+.white-rsvp-box {
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    color: #000000;
+    padding: 25px;
+    border-radius: 20px;
+    width: 100%;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+}
+.info-rsvp { margin-bottom: 15px; line-height: 1.4; }
+.input-field {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #bbbbbb;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 14px;
+}
+.input-field:focus {
+    outline: none;
+    border-color: #333333;
+}
+.radio-group {
+    text-align: left;
+    margin: 15px 0;
+}
+.radio-group label {
+    display: block;
+    margin: 8px 0;
+    cursor: pointer;
+    font-size: 15px;
+}
+.count-badge {
+    display: inline-block;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+/* Kotak Komentar Dinamis Halaman 11 */
+.comment-item {
+    background: rgba(0, 0, 0, 0.05);
+    border-left: 3px solid #333333;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+/* --- HALAMAN 12: TERIMAKASIH (PENUTUP) --- */
+.thanks-text {
+    line-height: 1.5;
+    margin-top: 15px;
+}
+
+/* --- HALAMAN 13: LOGO CLOSING --- */
+.closing-logo {
+    max-width: 200px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(255,255,255,0.1);
+}
+
+/* ===================================================
+   [SISTEM ANIMASI TIMBUL / FADE IN UP]
+   =================================================== */
+.animate {
+    opacity: 0;
+    transform: translateY(35px);
+    transition: opacity 0.9s ease-out, transform 0.9s ease-out;
+}
+
+/* Ketika halaman mendapatkan class .active dari JavaScript, jalankan animasi */
+.page-section.active .animate {
+    opacity: 1;
+    transform: translateY(0);
+}

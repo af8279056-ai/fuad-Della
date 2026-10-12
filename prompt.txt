@@ -1,0 +1,143 @@
+oke kita ulangi dari awal. buatkan code secara terpisah dari html, css & JS dengan format undangan seperti ini :
+Bagian depan :
+Background : Foto dengan nama file cover.jpg
+Teks :
+atas tengah : 
+the wedding of (menggunakan font auliare) size 1
+Fuad & Della (menggunakan font uvf aphrodite pro) size 2
+12.12.12 (menggunakan font auliare) Size 1
+
+tengah Bawah : 
+Kolom yang bisa diklik ada icon amplop dan tulisan open invitation (menggunakan font auliare size 1)
+
+setelah diklik masuk ke Bagian dalam :
+Halaman pertama :
+Background : Foto dengan nama file cover.jpg
+Teks :
+atas tengah : 
+the wedding of (menggunakan font auliare) size 1
+Fuad & Della (menggunakan font uvf aphrodite pro) size 2
+12.12.12 (menggunakan font auliare) Size 1
+pada halaman ini berikan animasi muncul/timbul pada teksnya
+
+Halaman ke-2 :
+background Foto potrait dengan nama file 9.jpg
+teks nya di bagian tengah center
+ayat Al qur an surat Ar rum ayat 21 (arab dan terjemah)
+pada halaman ini semua jenis font menggunakan font auliare size 1
+pada halaman ini berikan animasi muncul/timbul pada teksnya
+
+Halaman ke-3 :
+Backgorund Foto potrait dengan nama file 1.jpg
+teks center bawah :
+The Bride (font Photograph Signature size 1)
+Dedeh Siti Latifah, S.Pd., M.Pd (font uvf aphrodite pro size 1)
+Putri Pertama dari Bpk. Ahmad Fauzan, S.Pd & Ibu Eliana Sa'adah, S.Pd.Gr (font Auliare size 1)
+pada halaman ini berikan animasi muncul/timbul pada teksnya
+
+Halaman ke-4 :
+Backgorund Foto potrait dengan nama file 2.jpg
+teks center bawah :
+The Groom (font Photograph Signature size 1)
+Fuad Azhari, S.Pd.Gr (font uvf aphrodite pro size 1)
+Putra Pertama dari Bpk. Farhan Wahdatul Huda, S.Kom & Ibu Zulfa Nur Afifah, S.Pd.Gr (font Auliare size 1)
+pada halaman ini berikan animasi muncul/timbul pada teksnya
+
+Halaman ke-5 :
+Backgorund Foto potrait dengan nama file 11.jpg
+teks center tengah:
+Love Story (font uvf aphrodite pro size size 1)
+Awal Bertemu :
+ponpes haur mubarok - 2020
+
+Lamaran :
+2023
+
+Menikah :
+3012
+pada halaman ini berikan animasi muncul/timbul pada teksnya
+
+Halaman ke-6 :
+Background potrait dengan nama file 10.jpg
+Teks tengah center :
+Countdown time (font Photograph Signature size 1)
+Angka - Angka - Angka - Angka
+hari - Jam - Menit - Detik
+kolom yang bisa diklik dengan tulisan simpan kalender font auliare size 1
+pada halaman ini berikan animasi muncul/timbul pada teksnya
+
+Halaman ke 7 :
+Backgorund foto potrait dengan nama file 3.jpg
+Teks center tengah :
+Akad Nikah (Font Auliare size 1)
+Jum'at, 12 Desember 3012
+pukul 08.00 WIB (font auliare size 1)
+Icon google maps
+Masjid Agung Kota Banjar (font petite bold size 1)
+JGJR+59W, Banjar, Kec. Banjar, Kota Banjar, Jawa Barat 46311 (font auliare size 1)
+icon cincin nikah
+Resepsi (Font auliare size 1)
+Jum'at, 12 Desember 3012
+pukul 09.00 s.d 17.00 WIB (font auliare size 1)
+Icon google maps
+Masjid Agung Kota Banjar (font petite bold size 1)
+JGJR+59W, Banjar, Kec. Banjar, Kota Banjar, Jawa Barat 46311 (font auliare size 1)
+kolom yang bisa diklik dengan tulisan google maps (font auliare size 1)
+pada halaman ini berikan animasi muncul/timbul pada teksnya
+
+Halaman ke 8 :
+Backgorund potrait berwatna hitam polos dengan isi foto-foto
+format Foto grid 2, foto-fotonya dari 4.jpg - 14.jpg
+
+Halaman ke 9 :
+background foto potrait dengan nma file 12.jpg
+teks cnter bawah :
+Wedding Gift (Font Auliare size 1)
+Tanpa mengurangi rasa hormat kami, bagi tamu yang ingin memberikan hadiah kepada kedua mempelai dapat mengirimkannya melalui :
+kolom yang bisa diklik dengan tulisan klik disini (font auliare size 1)
+setelah diklik lalu muncul no rek :
+Fuad azhari
+BCA : 123456789
+Dedeh siti latifah
+BCA : 987654321
+pada halaman ini berikan animasi muncul/timbul pada teksnya
+
+Halaman ke 10 :
+background foto potrait dengan nama file 5.jpg
+ada kolom putih transparan ditengan dengan tulisan
+RSVP (font auliare size 1)
+bagi tamu undangan yag akan hadir di acara pernikahan kami, silahkan konfirmasi kehadiran dengan mengisi form berikut :
+Nama 
+(kolom isi nama)
+Jumlah Tamu
+(Kolom isi jumlah tamu)
+Konfirmasi :
+Ya, saya akan hadir
+Maaf, saya tidak bisa hadir
+pada halaman ini berikan animasi muncul/timbul pada teksnya
+
+Halaman ke 11 :
+Backgroun foto potrait dengan nama file 7.Jpg
+teks tengah center :
+Wedding wish (Font Auliare size 1)
+Tulisakan do'a & ucapan terbaik untuk kami
+(keterangan jumlah komen yang bisa berubah)
+---------------------------------------------------
+(kolom isi nama)
+(kolom ucapan)
+kolom yang bisa diklik dengan tulisan kirim
+(...........) isi yang udah komen
+pada halaman ini berikan animasi muncul/timbul pada teksnya
+
+Halaman ke 12 :
+Background foto potrait dengan nama file cover.jpg
+Teks center tengah ;
+Terimakasih (font Photograph Signature size 1)
+merupakan suatu kebahagiaan dan kehormatan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan do'a restu kepada kami. (font auliare size 1)
+
+Fuad & della ( Font font uvf aphrodite pro size 1)
+pada halaman ini berikan animasi muncul/timbul pada teksnya
+
+Halaman ke 13 :
+Background lanscape dengan warna hitam pekat polos
+ada logo dengan foto nama file logo.jpeg

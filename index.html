@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Wedding of Fuad & Della</title>
+    <!-- Hubungkan ke file CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome untuk Icon Amplop, Map, Cincin, dll -->
+    <link rel="stylesheet" href="https://cloudflare.com">
+</head>
+<body>
+
+    <!-- ===================================================
+       BAGIAN DEPAN (COVER LAYOVER)
+       =================================================== -->
+    <div id="cover-screen" class="page-section active" style="background-image: url('cover.jpg');">
+        <div class="overlay-dark"></div>
+        <div class="content-wrapper text-top animate">
+            <h3 class="font-auliare size-1">the wedding of</h3>
+            <h1 class="font-aphrodite size-2">Fuad & Della</h1>
+            <p class="font-auliare size-1">12.12.12</p>
+        </div>
+        <div class="content-wrapper text-bottom">
+            <button id="btn-open" class="btn-action font-auliare size-1">
+                <i class="fas fa-envelope"></i> Open Invitation
+            </button>
+        </div>
+    </div>
+
+    <!-- ===================================================
+       BAGIAN DALAM (MAIN APP CONTAINER)
+       =================================================== -->
+    <div id="main-invitation" class="hidden">
+        
+        <!-- === HALAMAN 1: PEMBUKA DALAM === -->
+        <div id="halaman-1" class="page-section" style="background-image: url('cover.jpg');">
+            <div class="overlay-dark"></div>
+            <div class="content-wrapper text-center animate">
+                <h3 class="font-auliare size-1">the wedding of</h3>
+                <h1 class="font-aphrodite size-2">Fuad & Della</h1>
+                <p class="font-auliare size-1">12.12.12</p>
+            </div>
+        </div>
+
+        <!-- === HALAMAN 2: AYAT AL-QUR'AN === -->
+        <div id="halaman-2" class="page-section" style="background-image: url('9.jpg');">
+            <div class="overlay-dark"></div>
+            <div class="content-wrapper text-center font-auliare size-1 animate">
+                <p class="arabic-text">وَمِنْ اٰيٰتِهٖٓ اَنْ خَلَقَ لَكُمْ mِّنْ اَنْفُسِكُمْ اَزْوَاجًا لِّتَسْكُنُوْٓا اِلَيْهَا وَجَعَلَ بَيْنَكُمْ مَّوَدَّةً وَرَحْمَةً ۗ اِنَّ فِيْ ذٰلِكَ لَاٰيٰتٍ لِّقَوْmٍ يَّتَفَكَّرُوْنَ</p>
+                <p class="translation-text">"Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang. Sungguh, pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang berpikir." (Ar-Rum: 21)</p>
+            </div>
+        </div>
+
+        <!-- === HALAMAN 3: THE BRIDE (MEMPELAI WANITA) === -->
+        <div id="halaman-3" class="page-section" style="background-image: url('1.jpg');">
+            <div class="overlay-dark"></div>
+            <div class="content-wrapper text-bottom animate">
+                <h2 class="font-signature size-1">The Bride</h2>
+                <h3 class="font-aphrodite size-1">Dedeh Siti Latifah, S.Pd., M.Pd</h3>
+                <p class="font-auliare size-1">Putri Pertama dari Bpk. Ahmad Fauzan, S.Pd & Ibu Eliana Sa'adah, S.Pd.Gr</p>
+            </div>
+        </div>
+
+        <!-- === HALAMAN 4: THE GROOM (MEMPELAI PRIA) === -->
+        <div id="halaman-4" class="page-section" style="background-image: url('2.jpg');">
+            <div class="overlay-dark"></div>
+            <div class="content-wrapper text-bottom animate">
+                <h2 class="font-signature size-1">The Groom</h2>
+                <h3 class="font-aphrodite size-1">Fuad Azhari, S.Pd.Gr</h3>
+                <p class="font-auliare size-1">Putra Pertama dari Bpk. Farhan Wahdatul Huda, S.Kom & Ibu Zulfa Nur Afifah, S.Pd.Gr</p>
+            </div>
+        </div>
+
+        <!-- === HALAMAN 5: LOVE STORY === -->
+        <div id="halaman-5" class="page-section" style="background-image: url('11.jpg');">
+            <div class="overlay-dark"></div>
+            <div class="content-wrapper text-center animate">
+                <h2 class="font-aphrodite size-1 title-story">Love Story</h2>
+                <div class="story-box font-auliare">
+                    <h4>Awal Bertemu :</h4>
+                    <p>ponpes haur mubarok - 2020</p>
+                    <h4>Lamaran :</h4>
+                    <p>2023</p>
+                    <h4>Menikah :</h4>
+                    <p>3012</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- === HALAMAN 6: COUNTDOWN === -->
+        <div id="halaman-6" class="page-section" style="background-image: url('10.jpg');">
+            <div class="overlay-dark"></div>
+            <div class="content-wrapper text-center animate">
+                <h2 class="font-signature size-1">Countdown time</h2>
+                <div id="countdown-timer" class="font-auliare">
+                     <div class="timer-box">
+                        <span class="timer-num" id="days">00</span>
+                        <span class="timer-label">Hari</span>
+                     </div>
+                     <div class="timer-box">
+                        <span class="timer-num" id="hours">00</span>
+                        <span class="timer-label">Jam</span>
+                     </div>
+                     <div class="timer-box">
+                        <span class="timer-num" id="minutes">00</span>
+                        <span class="timer-label">Menit</span>
+                     </div>
+                     <div class="timer-box">
+                        <span class="timer-num" id="seconds">00</span>
+                        <span class="timer-label">Detik</span>
+                     </div>
+                </div>
+                <button class="btn-action font-auliare size-1 mt-2">
+                    <i class="fas fa-calendar-check"></i> Simpan Kalender
+                </button>
+            </div>
+        </div>
+        <!-- === HALAMAN 7: INFO ACARA (AKAD & RESEPSI) === -->
+        <div id="halaman-7" class="page-section" style="background-image: url('3.jpg');">
+            <div class="overlay-dark"></div>
+            <div class="content-wrapper text-center scrollable animate">
+                <!-- Blok Akad -->
+                <div class="event-card">
+                    <h2 class="font-auliare size-1">Akad Nikah</h2>
+                    <p class="font-auliare size-1">Jum'at, 12 Desember 3012<br>Pukul 08.00 WIB</p>
+                    <p class="font-petite size-1"><i class="fas fa-map-marker-alt"></i> Masjid Agung Kota Banjar</p>
+                    <p class="font-auliare size-1">JGJR+59W, Banjar, Kec. Banjar, Kota Banjar, Jawa Barat 46311</p>
+                </div>
+                <!-- Blok Resepsi -->
+                <div class="event-card mt-2">
+                    <p class="font-auliare size-1"><i class="fas fa-ring"></i></p>
+                    <h2 class="font-auliare size-1">Resepsi</h2>
+                    <p class="font-auliare size-1">Jum'at, 12 Desember 3012<br>Pukul 09.00 s.d 17.00 WIB</p>
+                    <p class="font-petite size-1"><i class="fas fa-map-marker-alt"></i> Masjid Agung Kota Banjar</p>
+                    <p class="font-auliare size-1">JGJR+59W, Banjar, Kec. Banjar, Kota Banjar, Jawa Barat 46311</p>
+                </div>
+                <!-- Tombol Navigasi -->
+                <a href="https://google.com" target="_blank" class="btn-action font-auliare size-1 mt-2">
+                    <i class="fas fa-map-marked-alt"></i> Google Maps
+                </a>
+            </div>
+        </div>
+
+        <!-- === HALAMAN 8: GALERI FOTO GRID === -->
+        <div id="halaman-8" class="page-section bg-black-pure">
+            <div class="content-wrapper w-100 p-2 scrollable">
+                <div class="photo-grid animate">
+                    <img src="4.jpg" alt="Foto 4">
+                    <img src="5.jpg" alt="Foto 5">
+                    <img src="6.jpg" alt="Foto 6">
+                    <img src="7.jpg" alt="Foto 7">
+                    <img src="8.jpg" alt="Foto 8">
+                    <img src="9.jpg" alt="Foto 9">
+                    <img src="10.jpg" alt="Foto 10">
+                    <img src="11.jpg" alt="Foto 11">
+                    <img src="12.jpg" alt="Foto 12">
+                    <img src="13.jpg" alt="Foto 13">
+                    <img src="14.jpg" alt="Foto 14">
+                </div>
+            </div>
+        </div>
+
+        <!-- === HALAMAN 9: WEDDING GIFT === -->
+        <div id="halaman-9" class="page-section" style="background-image: url('12.jpg');">
+            <div class="overlay-dark"></div>
+            <div class="content-wrapper text-bottom animate">
+                <h2 class="font-auliare size-1">Wedding Gift</h2>
+                <p class="font-auliare size-1 text-justify">Tanpa mengurangi rasa hormat kami, bagi tamu yang ingin memberikan hadiah kepada kedua mempelai dapat mengirimkannya melalui :</p>
+                <button id="btn-gift" class="btn-action font-auliare size-1 mt-1">Klik Disini</button>
+                <!-- Detail Rekening (Tersembunyi Awal) -->
+                <div id="gift-details" class="bank-box font-auliare hidden mt-1">
+                    <p><strong>Fuad Azhari</strong><br>BCA : 123456789</p>
+                    <hr class="line-break">
+                    <p><strong>Dedeh Siti Latifah</strong><br>BCA : 987654321</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- === HALAMAN 10: RSVP (KONFIRMASI KEHADIRAN) === -->
+        <div id="halaman-10" class="page-section" style="background-image: url('5.jpg');">
+            <div class="overlay-dark"></div>
+            <div class="content-wrapper text-center animate">
+                <div class="white-rsvp-box">
+                    <h2 class="font-auliare size-1">RSVP</h2>
+                    <p class="font-auliare info-rsvp">Bagi tamu undangan yang akan hadir di acara pernikahan kami, silahkan konfirmasi kehadiran dengan mengisi form berikut :</p>
+                    <form id="rsvp-form" class="font-auliare">
+                        <input type="text" id="rsvp-name" placeholder="Nama" required class="input-field">
+                        <input type="number" id="rsvp-guests" placeholder="Jumlah Tamu" required class="input-field">
+                        <div class="radio-group">
+                            <label><input type="radio" name="konfirmasi" value="hadir" required> Ya, saya akan hadir</label>
+                            <label><input type="radio" name="konfirmasi" value="absen"> Maaf, saya tidak bisa hadir</label>
+                        </div>
+                        <button type="submit" class="btn-action size-1 w-100 mt-1">Kirim Konfirmasi</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- === HALAMAN 11: WEDDING WISH (DOA & UCAPAN) === -->
+        <div id="halaman-11" class="page-section" style="background-image: url('7.jpg');">
+            <div class="overlay-dark"></div>
+            <div class="content-wrapper text-center animate">
+                <div class="white-rsvp-box scrollable">
+                    <h2 class="font-auliare size-1">Wedding wish</h2>
+                    <p class="font-auliare">Tuliskan do'a & ucapan terbaik untuk kami</p>
+                    <span id="comment-count" class="font-auliare count-badge">(0 Ucapan)</span>
+                    <hr class="line-break">
+                    <form id="wish-form" class="font-auliare">
+                        <input type="text" id="wish-name" placeholder="Nama" required class="input-field">
+                        <textarea id="wish-text" placeholder="Tulis ucapan..." required class="input-field" rows="3"></textarea>
+                        <button type="submit" class="btn-action size-1 w-100 mt-1">Kirim</button>
+                    </form>
+                    <!-- Wadah Hasil Komen -->
+                    <div id="comments-container" class="mt-2"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- === HALAMAN 12: TERIMAKASIH (PENUTUP) === -->
+        <div id="halaman-12" class="page-section" style="background-image: url('cover.jpg');">
+            <div class="overlay-dark"></div>
+            <div class="content-wrapper text-center animate">
+                <h2 class="font-signature size-1">Terimakasih</h2>
+                <p class="font-auliare size-1 thanks-text">Merupakan suatu kebahagiaan dan kehormatan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan do'a restu kepada kami.</p>
+                <h1 class="font-aphrodite size-1 mt-2">Fuad & della</h1>
+            </div>
+        </div>
+
+        <!-- === HALAMAN 13: LOGO CLOSING === -->
+        <div id="halaman-13" class="page-section bg-black-pure">
+            <div class="content-wrapper text-center animate">
+                <img src="logo.jpeg" alt="Logo Pernikahan" class="closing-logo">
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Hubungkan ke file kontrol logika JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
